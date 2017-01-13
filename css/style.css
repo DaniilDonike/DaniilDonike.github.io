@@ -10,3 +10,8 @@ body {
     font-weight: 300;
     font-size: 120px;
 }
+
+a {
+	color: #fff;
+	direction: none;
+}
