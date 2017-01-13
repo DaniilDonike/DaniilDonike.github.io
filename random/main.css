@@ -55,7 +55,7 @@ p {
 
  @media screen and (max-width: 400px) {
  	p {
- 		font-size: 48px;
+ 		font-size: 100px;
  	}
 
  	#cant {
