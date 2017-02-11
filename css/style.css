@@ -14,4 +14,15 @@ body {
 a {
 	color: #fff;
 	direction: none;
+	font-size: 100px;
+}
+
+@media screen and (max-width: 700px) {
+	#clock {
+	    font-weight: 300;
+	    font-size: 60px;
+	}
+	a {
+		font-size: 2.5em;
+	}
 }
