@@ -18,6 +18,7 @@ button {
 	border-radius: 10px;
 	font-size: 30px;
 	font-family: 'Bungee Shade', cursive;
+	line-height: 20px;
 }
 
 button:hover {
