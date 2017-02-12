@@ -1,6 +1,7 @@
 body {
     font-family: 'Bungee Shade', cursive;
     margin-top: 300px;
+    height: 300px;
     text-align: center;
     color: white;
     background: #000;
@@ -31,5 +32,9 @@ a {
 	
 	.button {
 		font-size: 50px;
+	}
+
+	li:hover {
+		background: #222;
 	}
 }

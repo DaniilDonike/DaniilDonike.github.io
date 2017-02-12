@@ -21,7 +21,7 @@ body {
 	width: 100%;
 	position: absolute;
 	top: 0; left: 0;
-	background: #333;
+	background: #222;
 	transition: .5s all;
 	transform: translateY(-100%);
 	text-align: center;
