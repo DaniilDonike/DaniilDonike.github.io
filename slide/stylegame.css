@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	padding: 0;
+	z-index: 2;
+}
+
+body {
+	background: #000;
+}
+
+.contener {
+	width: 100%;
+	height: 110px;
+	background: #000;
+	text-align: center;
+}
+
+
+#gmm {
+	background: #000;
+	position: relative;
+	margin-top: 50px;
+	width: 100%;
+	height: 600px;
+	padding-top: 1px;
+}
+
+.card {
+	height: 500px;
+	width: 95%;
+	background: #000;
+	overflow: height;
+	margin: 0 auto;
+	position: relative;
+}
+
+.chose{
+	height: 50px;
+	width: 300px;
+	background: #000;
+	margin: 0 auto;
+}
+
+.yes, .no {
+	display: inline-block;
+	height: 100%;
+	width: 50%;
+	text-align: center;
+	font-family: arial;
+	font-size: 30px;
+	text-transform: uppercase;
+	line-height: 50px;
+	transition: .5s all;
+	color: #fff;
+}
+
+.yes {
+	float: left;
+}
+
+.no {
+	float: right;
+}
+
+.cards {
+	width: 100%;
+	height: 500px;
+	background: #999;
+	position: absolute;
+	transition: 1s all;
+}
+
+.cards2 {
+	width: 95%;
+	height: 500px;
+	background: #999;
+	font-size: 1.5em;
+	position: absolute;
+	transform: scale(0);
+	opacity: 0;
+	transition: 1s all;
+
+}
+
+#o1 {
+	background: red;
+}
+
+#o2 {
+	background: blue;
+}
+
+#o3{
+	background: orange;
+}
