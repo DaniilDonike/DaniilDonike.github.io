@@ -50,7 +50,6 @@ body {
 	font-size: 30px;
 	text-transform: uppercase;
 	line-height: 50px;
-	transition: .5s all;
 	color: #fff;
 }
 
@@ -92,4 +91,14 @@ body {
 
 #o3{
 	background: orange;
+}
+
+@media screen and (max-width: 700px) {
+	.yes, .no {
+		font-size: 45px;
+	}
+
+	#gmm {
+		height: 560px;
+	}
 }
